@@ -1,0 +1,42 @@
+@forward "main";
+@forward "tool-card";
+
+body {
+  background-color: hsl(0, 0%, 2%);
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+//  Animation
+
+body {
+  --color1: hsla(258, 100%, 50%, 0.623);
+
+  &::before,
+  &::after {
+    // outline: 1px rgb(255, 0, 0) solid; /////
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 1300ms ease-in-out;
+  }
+
+  &::before {
+    top: 0;
+    box-shadow: 0 0 60px 2px var(--color1);
+  }
+
+  &::after {
+    bottom: 0;
+    box-shadow: 0 0 60px 2px var(--color1);
+  }
+
+  &:hover::before,
+  &:hover::after {
+    opacity: 1;
+  }
+}
