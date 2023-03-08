@@ -1,0 +1,15 @@
+@forward "banner-section";
+
+body {
+  background-color: hsl(0, 0%, 2%);
+  min-height: 100vh;
+  padding-bottom: 500px;
+
+  div.YouTube-banner-dimensions {
+    // outline: 1px rgb(255, 0, 0) solid; /////
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+  }
+}

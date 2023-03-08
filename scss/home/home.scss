@@ -7,6 +7,18 @@ body {
   place-content: center;
   height: 100vh;
   position: relative;
+
+  h1 {
+    color: hsla(0, 0%, 100%, 0.705);
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Lobster", cursive;
+    opacity: 0;
+    transition: opacity 1300ms ease-in-out;
+    pointer-events: none;
+  }
 }
 
 //  Animation
@@ -36,7 +48,8 @@ body {
   }
 
   &:hover::before,
-  &:hover::after {
+  &:hover::after,
+  &:hover h1 {
     opacity: 1;
   }
 }
