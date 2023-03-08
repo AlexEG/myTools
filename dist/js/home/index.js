@@ -34,9 +34,9 @@ function toolCardTemplate(pageLink, imgURL, toolName, description) {
 }
 ToolsContainer.innerHTML += toolCardTemplate(`./html/YouTube-Banner.html`, `youtube-banner.jpg`, `YouTube Banner`, `A simple tool that help me create a update my YOUTUBE channel
   easy & quickly.`);
-ToolsContainer.innerHTML += toolCardTemplate(`#`, `password.webp`, `Passwords`, `a tool I used heavily to secure all my accounts with random
+ToolsContainer.innerHTML += toolCardTemplate(`#`, `password.webp`, `Passwords`, `A tool I used heavily to secure all my accounts with random
   strong passwords.`);
-ToolsContainer.innerHTML += toolCardTemplate(`#`, `youtube-thumbnails.webp`, `youtube thumbnail`, `I like use css instead of Adobe Photoshop or figma, just to challenge my self in css.`);
+ToolsContainer.innerHTML += toolCardTemplate(`#`, `youtube-thumbnails.webp`, `youtube thumbnail`, `Just to challenge my self in css, plus I'm learing Canvas API so it's practice for me.`);
 (function setGlowEffectRx() {
     const glowEffects = document.querySelectorAll(".glow-effect");
     glowEffects.forEach((glowEffect) => {

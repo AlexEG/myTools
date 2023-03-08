@@ -62,7 +62,7 @@ ToolsContainer.innerHTML += toolCardTemplate(
   `#`,
   `password.webp`,
   `Passwords`,
-  `a tool I used heavily to secure all my accounts with random
+  `A tool I used heavily to secure all my accounts with random
   strong passwords.`
 );
 
@@ -71,7 +71,7 @@ ToolsContainer.innerHTML += toolCardTemplate(
   `#`,
   `youtube-thumbnails.webp`,
   `youtube thumbnail`,
-  `I like use css instead of Adobe Photoshop or figma, just to challenge my self in css.`
+  `Just to challenge my self in css, plus I'm learing Canvas API so it's practice for me.`
 );
 
 // hover effect tool__card
