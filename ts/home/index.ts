@@ -59,7 +59,7 @@ ToolsContainer.innerHTML += toolCardTemplate(
 
 //*  => Passwords <=
 ToolsContainer.innerHTML += toolCardTemplate(
-  `#`,
+  `./html/passwords.html`,
   `password.webp`,
   `Passwords`,
   `A tool I used heavily to secure all my accounts with random

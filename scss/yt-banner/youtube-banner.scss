@@ -1,7 +1,7 @@
 @forward "banner-section";
 
 body {
-  background-color: hsl(0, 0%, 2%);
+  background-color: hsla(0, 0%, 9%);
   min-height: 100vh;
   padding-bottom: 500px;
   a {
@@ -17,11 +17,50 @@ body {
     justify-content: center;
   }
 
-  #alexImg {
-    display: none;
-  }
+  // #alexImg {
+  //   display: none;
+  // }
 
   .banner-section {
-    padding-left: 100px;
+    padding-inline: 20px;
+
+    div {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+      button {
+        cursor: pointer;
+        border: none;
+        padding: 5px 15px;
+        background-image: linear-gradient(
+          45deg,
+          rgb(98, 0, 255),
+          rgb(128, 0, 96)
+        );
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: 500;
+        font-family: "Lobster", cursive;
+      }
+    }
   }
+
+  .tv-width {
+    outline: 4px solid red;
+    // background-color: hsla(0, 100%, 59%, 0.164);
+    width: 100%;
+    // height: 700px;
+    overflow: auto;
+
+    canvas {
+      border: none;
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+#canvasPC {
+  border: 4px solid red;
 }
